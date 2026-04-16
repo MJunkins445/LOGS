@@ -1,0 +1,72 @@
+{
+  "target": "127.0.0.1",
+  "ports": [
+    {
+      "port": 135,
+      "proto": "tcp",
+      "state": "open",
+      "service": "msrpc Microsoft Windows RPC",
+      "version": "msrpc Microsoft Windows RPC",
+      "is_risky": false,
+      "is_critical": false
+    },
+    {
+      "port": 445,
+      "proto": "tcp",
+      "state": "open",
+      "service": "SMB - File Sharing (WannaCry vector)",
+      "version": "microsoft-ds",
+      "is_risky": false,
+      "is_critical": true
+    },
+    {
+      "port": 3306,
+      "proto": "tcp",
+      "state": "open",
+      "service": "MySQL Database",
+      "version": "mysql MySQL 8.4.8",
+      "is_risky": true,
+      "is_critical": false
+    },
+    {
+      "port": 4454,
+      "proto": "tcp",
+      "state": "open",
+      "service": "http Node.js Express framework",
+      "version": "http Node.js Express framework",
+      "is_risky": false,
+      "is_critical": false
+    },
+    {
+      "port": 5040,
+      "proto": "tcp",
+      "state": "open",
+      "service": "",
+      "version": "",
+      "is_risky": false,
+      "is_critical": false
+    },
+    {
+      "port": 5357,
+      "proto": "tcp",
+      "state": "open",
+      "service": "http Microsoft HTTPAPI httpd 2.0",
+      "version": "http Microsoft HTTPAPI httpd 2.0",
+      "is_risky": false,
+      "is_critical": false
+    },
+    {
+      "port": 6742,
+      "proto": "tcp",
+      "state": "open",
+      "service": "",
+      "version": "",
+      "is_risky": false,
+      "is_critical": false
+    }
+  ],
+  "os_guess": "Unknown",
+  "scan_args": "-sV -T3 --open -p 1-10000",
+  "profile": "standard",
+  "profile_label": "Standard Scan"
+}

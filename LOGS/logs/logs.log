@@ -1,0 +1,524 @@
+2026-03-03 17:40:35  INFO      logs — ============================================================
+2026-03-03 17:40:35  INFO      logs — L.O.G.S. starting
+2026-03-03 17:40:35  INFO      logs — ============================================================
+2026-03-03 17:40:36  INFO      logs — FirewallDemoWindow displayed — entering event loop
+2026-03-03 17:40:38  INFO      logs.firewall — Starting firewall analysis
+2026-03-03 17:40:39  INFO      logs.firewall — Retrieved 993 firewall rules.
+2026-03-03 17:40:39  INFO      logs.firewall — Analysis complete. 728 issue(s) in 993 rule(s).
+2026-03-03 17:40:49  INFO      logs.scanner — nmap PortScanner initialized successfully
+2026-03-03 17:40:49  INFO      logs.scanner — Starting scan on 127.0.0.1 | profile=standard (Standard Scan) | args: -sV -T3 --open -p 1-10000
+2026-03-03 17:41:16  INFO      logs — L.O.G.S. exiting with code 0
+2026-03-03 17:41:18  INFO      logs — ============================================================
+2026-03-03 17:41:18  INFO      logs — L.O.G.S. starting
+2026-03-03 17:41:18  INFO      logs — ============================================================
+2026-03-03 17:41:18  INFO      logs — FirewallDemoWindow displayed — entering event loop
+2026-03-03 17:41:21  INFO      logs.scanner — nmap PortScanner initialized successfully
+2026-03-03 17:41:21  INFO      logs.scanner — Starting scan on 127.0.0.1 | profile=quick (Quick Scan) | args: -sV -T4 --open --top-ports 100
+2026-03-03 17:41:32  INFO      logs.scanner — Scan complete. 4 open port(s) found.
+2026-03-03 17:41:32  INFO      logs.scanner — Initial baseline saved.
+2026-03-03 17:41:32  INFO      logs.firewall — Starting firewall analysis
+2026-03-03 17:41:33  INFO      logs.firewall — Retrieved 993 firewall rules.
+2026-03-03 17:41:33  INFO      logs.firewall — Analysis complete. 728 issue(s) in 993 rule(s).
+2026-03-03 17:41:33  INFO      logs.risk_engine — Risk score: 100%  (raw=5887)
+2026-03-03 17:41:33  DEBUG     logs.risk_engine —   +20 critical port 445
+2026-03-03 17:41:33  DEBUG     logs.risk_engine —   +15 risky port 3306
+2026-03-03 17:41:33  DEBUG     logs.risk_engine —   +10 firewall High: Wi-Fi Direct Spooler Use (In)
+2026-03-03 17:41:33  DEBUG     logs.risk_engine —   +7 firewall Medium: Remote Assistance (TCP-Out)
+2026-03-03 17:41:33  DEBUG     logs.risk_engine —   +10 firewall High: Network Discovery (LLMNR-UDP-I
+2026-03-03 17:41:33  DEBUG     logs.risk_engine —   +7 firewall Medium: Remote Event Log Management (N
+2026-03-03 17:41:33  DEBUG     logs.risk_engine —   +10 firewall High: Network Discovery for Teredo (
+2026-03-03 17:41:33  DEBUG     logs.risk_engine —   +10 firewall High: Wi-Fi Direct Scan Service Use 
+2026-03-03 17:41:33  DEBUG     logs.risk_engine —   +7 firewall Medium: Network Discovery (WSD-In)
+2026-03-03 17:41:33  DEBUG     logs.risk_engine —   +7 firewall Medium: Network Discovery (UPnP-Out)
+2026-03-03 17:41:33  DEBUG     logs.risk_engine —   ... and 720 more
+2026-03-03 17:41:35  DEBUG     logs.anomaly_detector — IsolationForest prediction=1, score=-0.3526
+2026-03-03 17:41:35  INFO      logs.anomaly_detector — Baseline updated.
+2026-03-03 17:43:50  INFO      logs — L.O.G.S. exiting with code 0
+2026-03-03 17:43:53  INFO      logs — ============================================================
+2026-03-03 17:43:53  INFO      logs — L.O.G.S. starting
+2026-03-03 17:43:53  INFO      logs — ============================================================
+2026-03-03 17:43:53  INFO      logs — FirewallDemoWindow displayed — entering event loop
+2026-03-03 17:44:08  INFO      logs.scanner — nmap PortScanner initialized successfully
+2026-03-03 17:44:08  INFO      logs.scanner — Starting scan on 127.0.0.1 | profile=quick (Quick Scan) | args: -sV -T4 --open --top-ports 100
+2026-03-03 17:44:19  INFO      logs.firewall — Starting firewall analysis
+2026-03-03 17:44:19  INFO      logs.scanner — Scan complete. 4 open port(s) found.
+2026-03-03 17:44:19  INFO      logs.firewall — Starting firewall analysis
+2026-03-03 17:44:20  INFO      logs.firewall — Retrieved 993 firewall rules.
+2026-03-03 17:44:20  INFO      logs.firewall — Analysis complete. 728 issue(s) in 993 rule(s).
+2026-03-03 17:44:20  INFO      logs.firewall — Retrieved 993 firewall rules.
+2026-03-03 17:44:20  INFO      logs.firewall — Analysis complete. 728 issue(s) in 993 rule(s).
+2026-03-03 17:44:20  INFO      logs.risk_engine — Risk score: 100%  (raw=5887)
+2026-03-03 17:44:20  DEBUG     logs.risk_engine —   +20 critical port 445
+2026-03-03 17:44:20  DEBUG     logs.risk_engine —   +15 risky port 3306
+2026-03-03 17:44:20  DEBUG     logs.risk_engine —   +10 firewall High: Wi-Fi Direct Spooler Use (In)
+2026-03-03 17:44:20  DEBUG     logs.risk_engine —   +7 firewall Medium: Remote Assistance (TCP-Out)
+2026-03-03 17:44:20  DEBUG     logs.risk_engine —   +10 firewall High: Network Discovery (LLMNR-UDP-I
+2026-03-03 17:44:20  DEBUG     logs.risk_engine —   +7 firewall Medium: Remote Event Log Management (N
+2026-03-03 17:44:20  DEBUG     logs.risk_engine —   +10 firewall High: Network Discovery for Teredo (
+2026-03-03 17:44:20  DEBUG     logs.risk_engine —   +10 firewall High: Wi-Fi Direct Scan Service Use 
+2026-03-03 17:44:20  DEBUG     logs.risk_engine —   +7 firewall Medium: Network Discovery (WSD-In)
+2026-03-03 17:44:20  DEBUG     logs.risk_engine —   +7 firewall Medium: Network Discovery (UPnP-Out)
+2026-03-03 17:44:20  DEBUG     logs.risk_engine —   ... and 720 more
+2026-03-03 17:44:21  DEBUG     logs.anomaly_detector — IsolationForest prediction=1, score=-0.3526
+2026-03-03 17:44:21  INFO      logs.anomaly_detector — Baseline updated.
+2026-03-03 17:44:42  INFO      logs — L.O.G.S. exiting with code 0
+2026-03-03 17:46:37  INFO      logs — ============================================================
+2026-03-03 17:46:37  INFO      logs — L.O.G.S. starting
+2026-03-03 17:46:37  INFO      logs — ============================================================
+2026-03-03 17:46:37  INFO      logs — FirewallDemoWindow displayed — entering event loop
+2026-03-03 17:46:41  INFO      logs.scanner — nmap PortScanner initialized successfully
+2026-03-03 17:46:41  INFO      logs.scanner — Starting scan on 127.0.0.1 | profile=standard (Standard Scan) | args: -sV -T3 --open -p 1-10000
+2026-03-03 17:47:55  INFO      logs — L.O.G.S. exiting with code 0
+2026-03-03 17:48:01  INFO      logs — ============================================================
+2026-03-03 17:48:01  INFO      logs — L.O.G.S. starting
+2026-03-03 17:48:01  INFO      logs — ============================================================
+2026-03-03 17:48:02  INFO      logs — FirewallDemoWindow displayed — entering event loop
+2026-03-03 17:48:22  INFO      logs — L.O.G.S. exiting with code 0
+2026-03-03 17:50:10  INFO      logs — ============================================================
+2026-03-03 17:50:10  INFO      logs — L.O.G.S. starting
+2026-03-03 17:50:10  INFO      logs — ============================================================
+2026-03-03 17:50:10  INFO      logs — FirewallDemoWindow displayed — entering event loop
+2026-03-03 17:50:13  INFO      logs — L.O.G.S. exiting with code 0
+2026-03-03 17:50:26  INFO      logs — ============================================================
+2026-03-03 17:50:26  INFO      logs — L.O.G.S. starting
+2026-03-03 17:50:26  INFO      logs — ============================================================
+2026-03-03 17:50:27  INFO      logs — FirewallDemoWindow displayed — entering event loop
+2026-03-03 17:50:30  INFO      logs.scanner — nmap PortScanner initialized successfully
+2026-03-03 17:50:30  INFO      logs.scanner — Starting scan on 127.0.0.1 | profile=quick (Quick Scan) | args: -sV -T4 --open --top-ports 100
+2026-03-03 17:50:41  INFO      logs.scanner — Scan complete. 4 open port(s) found.
+2026-03-03 17:50:41  INFO      logs.firewall — Starting firewall analysis
+2026-03-03 17:50:42  INFO      logs.firewall — Retrieved 993 firewall rules.
+2026-03-03 17:50:42  INFO      logs.firewall — Analysis complete. 728 issue(s) in 993 rule(s).
+2026-03-03 17:50:42  INFO      logs.risk_engine — Risk score: 100%  (raw=5887)
+2026-03-03 17:50:42  DEBUG     logs.risk_engine —   +20 critical port 445
+2026-03-03 17:50:42  DEBUG     logs.risk_engine —   +15 risky port 3306
+2026-03-03 17:50:42  DEBUG     logs.risk_engine —   +10 firewall High: Wi-Fi Direct Spooler Use (In)
+2026-03-03 17:50:42  DEBUG     logs.risk_engine —   +7 firewall Medium: Remote Assistance (TCP-Out)
+2026-03-03 17:50:42  DEBUG     logs.risk_engine —   +10 firewall High: Network Discovery (LLMNR-UDP-I
+2026-03-03 17:50:42  DEBUG     logs.risk_engine —   +7 firewall Medium: Remote Event Log Management (N
+2026-03-03 17:50:42  DEBUG     logs.risk_engine —   +10 firewall High: Network Discovery for Teredo (
+2026-03-03 17:50:42  DEBUG     logs.risk_engine —   +10 firewall High: Wi-Fi Direct Scan Service Use 
+2026-03-03 17:50:42  DEBUG     logs.risk_engine —   +7 firewall Medium: Network Discovery (WSD-In)
+2026-03-03 17:50:42  DEBUG     logs.risk_engine —   +7 firewall Medium: Network Discovery (UPnP-Out)
+2026-03-03 17:50:42  DEBUG     logs.risk_engine —   ... and 720 more
+2026-03-03 17:50:43  DEBUG     logs.anomaly_detector — IsolationForest prediction=1, score=-0.3526
+2026-03-03 17:50:43  INFO      logs.anomaly_detector — Baseline updated.
+2026-03-03 17:51:48  INFO      logs — L.O.G.S. exiting with code 0
+2026-03-03 17:51:57  INFO      logs — ============================================================
+2026-03-03 17:51:57  INFO      logs — L.O.G.S. starting
+2026-03-03 17:51:57  INFO      logs — ============================================================
+2026-03-03 17:51:58  INFO      logs — FirewallDemoWindow displayed — entering event loop
+2026-03-03 17:52:28  INFO      logs.scanner — nmap PortScanner initialized successfully
+2026-03-03 17:52:28  INFO      logs.scanner — Starting scan on 127.0.0.1 | profile=standard (Standard Scan) | args: -sV -T3 --open -p 1-10000
+2026-03-03 17:54:01  INFO      logs.scanner — Scan complete. 6 open port(s) found.
+2026-03-03 17:54:01  INFO      logs.firewall — Starting firewall analysis
+2026-03-03 17:54:02  INFO      logs.firewall — Retrieved 993 firewall rules.
+2026-03-03 17:54:02  INFO      logs.firewall — Analysis complete. 728 issue(s) in 993 rule(s).
+2026-03-03 17:54:02  INFO      logs.risk_engine — Risk score: 100%  (raw=5887)
+2026-03-03 17:54:02  DEBUG     logs.risk_engine —   +20 critical port 445
+2026-03-03 17:54:02  DEBUG     logs.risk_engine —   +15 risky port 3306
+2026-03-03 17:54:02  DEBUG     logs.risk_engine —   +10 firewall High: Wi-Fi Direct Spooler Use (In)
+2026-03-03 17:54:02  DEBUG     logs.risk_engine —   +7 firewall Medium: Remote Assistance (TCP-Out)
+2026-03-03 17:54:02  DEBUG     logs.risk_engine —   +10 firewall High: Network Discovery (LLMNR-UDP-I
+2026-03-03 17:54:02  DEBUG     logs.risk_engine —   +7 firewall Medium: Remote Event Log Management (N
+2026-03-03 17:54:02  DEBUG     logs.risk_engine —   +10 firewall High: Network Discovery for Teredo (
+2026-03-03 17:54:02  DEBUG     logs.risk_engine —   +10 firewall High: Wi-Fi Direct Scan Service Use 
+2026-03-03 17:54:02  DEBUG     logs.risk_engine —   +7 firewall Medium: Network Discovery (WSD-In)
+2026-03-03 17:54:02  DEBUG     logs.risk_engine —   +7 firewall Medium: Network Discovery (UPnP-Out)
+2026-03-03 17:54:02  DEBUG     logs.risk_engine —   ... and 720 more
+2026-03-03 17:54:02  WARNING   logs.anomaly_detector — ANOMALY: New open port detected: 3529
+2026-03-03 17:54:02  WARNING   logs.anomaly_detector — ANOMALY: New open port detected: 5040
+2026-03-03 17:54:03  DEBUG     logs.anomaly_detector — IsolationForest prediction=1, score=-0.3925
+2026-03-03 17:54:03  INFO      logs.anomaly_detector — Baseline updated.
+2026-03-03 17:54:34  INFO      logs — L.O.G.S. exiting with code 0
+2026-03-03 17:54:35  INFO      logs — ============================================================
+2026-03-03 17:54:35  INFO      logs — L.O.G.S. starting
+2026-03-03 17:54:35  INFO      logs — ============================================================
+2026-03-03 17:54:36  INFO      logs — FirewallDemoWindow displayed — entering event loop
+2026-03-03 17:54:52  INFO      logs — L.O.G.S. exiting with code 0
+2026-03-03 17:55:09  INFO      logs — ============================================================
+2026-03-03 17:55:09  INFO      logs — L.O.G.S. starting
+2026-03-03 17:55:09  INFO      logs — ============================================================
+2026-03-03 17:55:09  INFO      logs — FirewallDemoWindow displayed — entering event loop
+2026-03-03 17:55:41  INFO      logs.scanner — nmap PortScanner initialized successfully
+2026-03-03 17:55:41  INFO      logs.scanner — Starting scan on 127.0.0.1 | profile=quick (Quick Scan) | args: -sV -T4 --open --top-ports 100
+2026-03-03 17:55:52  INFO      logs.scanner — Scan complete. 4 open port(s) found.
+2026-03-03 17:55:52  INFO      logs.firewall — Starting firewall analysis
+2026-03-03 17:55:53  INFO      logs.firewall — Retrieved 993 firewall rules.
+2026-03-03 17:55:53  INFO      logs.firewall — Analysis complete. 728 issue(s) in 993 rule(s).
+2026-03-03 17:55:53  INFO      logs.risk_engine — Risk score: 100%  (raw=5887)
+2026-03-03 17:55:53  DEBUG     logs.risk_engine —   +20 critical port 445
+2026-03-03 17:55:53  DEBUG     logs.risk_engine —   +15 risky port 3306
+2026-03-03 17:55:53  DEBUG     logs.risk_engine —   +10 firewall High: Wi-Fi Direct Spooler Use (In)
+2026-03-03 17:55:53  DEBUG     logs.risk_engine —   +7 firewall Medium: Remote Assistance (TCP-Out)
+2026-03-03 17:55:53  DEBUG     logs.risk_engine —   +10 firewall High: Network Discovery (LLMNR-UDP-I
+2026-03-03 17:55:53  DEBUG     logs.risk_engine —   +7 firewall Medium: Remote Event Log Management (N
+2026-03-03 17:55:53  DEBUG     logs.risk_engine —   +10 firewall High: Network Discovery for Teredo (
+2026-03-03 17:55:53  DEBUG     logs.risk_engine —   +10 firewall High: Wi-Fi Direct Scan Service Use 
+2026-03-03 17:55:53  DEBUG     logs.risk_engine —   +7 firewall Medium: Network Discovery (WSD-In)
+2026-03-03 17:55:53  DEBUG     logs.risk_engine —   +7 firewall Medium: Network Discovery (UPnP-Out)
+2026-03-03 17:55:53  DEBUG     logs.risk_engine —   ... and 720 more
+2026-03-03 17:55:53  INFO      logs.anomaly_detector — Change: Port no longer open (was in baseline): 3529
+2026-03-03 17:55:53  INFO      logs.anomaly_detector — Change: Port no longer open (was in baseline): 5040
+2026-03-03 17:55:54  DEBUG     logs.anomaly_detector — IsolationForest prediction=1, score=-0.3925
+2026-03-03 17:55:54  INFO      logs.anomaly_detector — Baseline updated.
+2026-03-03 17:56:01  INFO      logs — L.O.G.S. exiting with code 0
+2026-03-03 18:06:04  INFO      logs — ============================================================
+2026-03-03 18:06:04  INFO      logs — L.O.G.S. starting
+2026-03-03 18:06:04  INFO      logs — ============================================================
+2026-03-03 18:06:04  INFO      logs — FirewallDemoWindow displayed — entering event loop
+2026-03-03 18:06:11  INFO      logs.scanner — nmap PortScanner initialized successfully
+2026-03-03 18:06:11  INFO      logs.scanner — Starting scan on 127.0.0.1 | profile=quick (Quick Scan) | args: -sV -T4 --open --top-ports 100
+2026-03-03 18:06:22  INFO      logs.scanner — Scan complete. 4 open port(s) found.
+2026-03-03 18:06:22  INFO      logs.firewall — Starting firewall analysis
+2026-03-03 18:06:23  INFO      logs.firewall — Retrieved 993 firewall rules.
+2026-03-03 18:06:23  INFO      logs.firewall — Analysis complete. 728 issue(s) in 993 rule(s).
+2026-03-03 18:06:23  INFO      logs.risk_engine — Risk score: 100%  (raw=5887)
+2026-03-03 18:06:23  DEBUG     logs.risk_engine —   +20 critical port 445
+2026-03-03 18:06:23  DEBUG     logs.risk_engine —   +15 risky port 3306
+2026-03-03 18:06:23  DEBUG     logs.risk_engine —   +10 firewall High: Wi-Fi Direct Spooler Use (In)
+2026-03-03 18:06:23  DEBUG     logs.risk_engine —   +7 firewall Medium: Remote Assistance (TCP-Out)
+2026-03-03 18:06:23  DEBUG     logs.risk_engine —   +10 firewall High: Network Discovery (LLMNR-UDP-I
+2026-03-03 18:06:23  DEBUG     logs.risk_engine —   +7 firewall Medium: Remote Event Log Management (N
+2026-03-03 18:06:23  DEBUG     logs.risk_engine —   +10 firewall High: Network Discovery for Teredo (
+2026-03-03 18:06:23  DEBUG     logs.risk_engine —   +10 firewall High: Wi-Fi Direct Scan Service Use 
+2026-03-03 18:06:23  DEBUG     logs.risk_engine —   +7 firewall Medium: Network Discovery (WSD-In)
+2026-03-03 18:06:23  DEBUG     logs.risk_engine —   +7 firewall Medium: Network Discovery (UPnP-Out)
+2026-03-03 18:06:23  DEBUG     logs.risk_engine —   ... and 720 more
+2026-03-03 18:06:24  DEBUG     logs.anomaly_detector — IsolationForest prediction=1, score=-0.3526
+2026-03-03 18:06:24  INFO      logs.anomaly_detector — Baseline updated.
+2026-03-03 18:06:38  INFO      logs — L.O.G.S. exiting with code 0
+2026-03-03 18:07:05  INFO      logs — ============================================================
+2026-03-03 18:07:05  INFO      logs — L.O.G.S. starting
+2026-03-03 18:07:05  INFO      logs — ============================================================
+2026-03-03 18:07:05  INFO      logs — FirewallDemoWindow displayed — entering event loop
+2026-03-03 18:07:09  INFO      logs.scanner — nmap PortScanner initialized successfully
+2026-03-03 18:07:09  INFO      logs.scanner — Starting scan on 127.0.0.1 | profile=quick (Quick Scan) | args: -sV -T4 --open --top-ports 100
+2026-03-03 18:07:20  INFO      logs.scanner — Scan complete. 4 open port(s) found.
+2026-03-03 18:07:20  INFO      logs.firewall — Starting firewall analysis
+2026-03-03 18:07:21  INFO      logs.firewall — Retrieved 993 firewall rules.
+2026-03-03 18:07:21  INFO      logs.firewall — Analysis complete. 728 issue(s) in 993 rule(s).
+2026-03-03 18:07:21  INFO      logs.risk_engine — Risk score: 100%  (raw=5887)
+2026-03-03 18:07:21  DEBUG     logs.risk_engine —   +20 critical port 445
+2026-03-03 18:07:21  DEBUG     logs.risk_engine —   +15 risky port 3306
+2026-03-03 18:07:21  DEBUG     logs.risk_engine —   +10 firewall High: Wi-Fi Direct Spooler Use (In)
+2026-03-03 18:07:21  DEBUG     logs.risk_engine —   +7 firewall Medium: Remote Assistance (TCP-Out)
+2026-03-03 18:07:21  DEBUG     logs.risk_engine —   +10 firewall High: Network Discovery (LLMNR-UDP-I
+2026-03-03 18:07:21  DEBUG     logs.risk_engine —   +7 firewall Medium: Remote Event Log Management (N
+2026-03-03 18:07:21  DEBUG     logs.risk_engine —   +10 firewall High: Network Discovery for Teredo (
+2026-03-03 18:07:21  DEBUG     logs.risk_engine —   +10 firewall High: Wi-Fi Direct Scan Service Use 
+2026-03-03 18:07:21  DEBUG     logs.risk_engine —   +7 firewall Medium: Network Discovery (WSD-In)
+2026-03-03 18:07:21  DEBUG     logs.risk_engine —   +7 firewall Medium: Network Discovery (UPnP-Out)
+2026-03-03 18:07:21  DEBUG     logs.risk_engine —   ... and 720 more
+2026-03-03 18:07:22  DEBUG     logs.anomaly_detector — IsolationForest prediction=1, score=-0.3526
+2026-03-03 18:07:22  INFO      logs.anomaly_detector — Baseline updated.
+2026-03-03 18:07:31  INFO      logs — L.O.G.S. exiting with code 0
+2026-03-03 18:07:38  INFO      logs — ============================================================
+2026-03-03 18:07:38  INFO      logs — L.O.G.S. starting
+2026-03-03 18:07:38  INFO      logs — ============================================================
+2026-03-03 18:07:38  INFO      logs — FirewallDemoWindow displayed — entering event loop
+2026-03-03 18:09:33  INFO      logs — L.O.G.S. exiting with code 0
+2026-03-03 18:09:35  INFO      logs — ============================================================
+2026-03-03 18:09:35  INFO      logs — L.O.G.S. starting
+2026-03-03 18:09:35  INFO      logs — ============================================================
+2026-03-03 18:09:35  INFO      logs — FirewallDemoWindow displayed — entering event loop
+2026-03-03 18:09:38  INFO      logs.scanner — nmap PortScanner initialized successfully
+2026-03-03 18:09:38  INFO      logs.scanner — Starting scan on 127.0.0.1 | profile=quick (Quick Scan) | args: -sV -T4 --open --top-ports 100
+2026-03-03 18:09:49  INFO      logs.scanner — Scan complete. 4 open port(s) found.
+2026-03-03 18:09:49  INFO      logs.firewall — Starting firewall analysis
+2026-03-03 18:09:50  INFO      logs.firewall — Retrieved 993 firewall rules.
+2026-03-03 18:09:50  INFO      logs.firewall — Analysis complete. 728 issue(s) in 993 rule(s).
+2026-03-03 18:09:50  INFO      logs.risk_engine — Risk score: 100%  (raw=5887)
+2026-03-03 18:09:50  DEBUG     logs.risk_engine —   +20 critical port 445
+2026-03-03 18:09:50  DEBUG     logs.risk_engine —   +15 risky port 3306
+2026-03-03 18:09:50  DEBUG     logs.risk_engine —   +10 firewall High: Wi-Fi Direct Spooler Use (In)
+2026-03-03 18:09:50  DEBUG     logs.risk_engine —   +7 firewall Medium: Remote Assistance (TCP-Out)
+2026-03-03 18:09:50  DEBUG     logs.risk_engine —   +10 firewall High: Network Discovery (LLMNR-UDP-I
+2026-03-03 18:09:50  DEBUG     logs.risk_engine —   +7 firewall Medium: Remote Event Log Management (N
+2026-03-03 18:09:50  DEBUG     logs.risk_engine —   +10 firewall High: Network Discovery for Teredo (
+2026-03-03 18:09:50  DEBUG     logs.risk_engine —   +10 firewall High: Wi-Fi Direct Scan Service Use 
+2026-03-03 18:09:50  DEBUG     logs.risk_engine —   +7 firewall Medium: Network Discovery (WSD-In)
+2026-03-03 18:09:50  DEBUG     logs.risk_engine —   +7 firewall Medium: Network Discovery (UPnP-Out)
+2026-03-03 18:09:50  DEBUG     logs.risk_engine —   ... and 720 more
+2026-03-03 18:09:52  DEBUG     logs.anomaly_detector — IsolationForest prediction=1, score=-0.3526
+2026-03-03 18:09:52  INFO      logs.anomaly_detector — Baseline updated.
+2026-03-03 18:10:19  INFO      logs — L.O.G.S. exiting with code 0
+2026-03-03 18:13:28  INFO      logs — ============================================================
+2026-03-03 18:13:28  INFO      logs — L.O.G.S. starting
+2026-03-03 18:13:28  INFO      logs — ============================================================
+2026-03-03 18:13:28  INFO      logs — FirewallDemoWindow displayed — entering event loop
+2026-03-03 18:13:38  INFO      logs — L.O.G.S. exiting with code 0
+2026-03-03 18:15:36  INFO      logs — ============================================================
+2026-03-03 18:15:36  INFO      logs — L.O.G.S. starting
+2026-03-03 18:15:36  INFO      logs — ============================================================
+2026-03-03 18:15:36  INFO      logs — FirewallDemoWindow displayed — entering event loop
+2026-03-03 18:15:38  INFO      logs.firewall — Starting firewall analysis
+2026-03-03 18:15:39  INFO      logs.firewall — Retrieved 993 firewall rules.
+2026-03-03 18:15:39  INFO      logs.firewall — Analysis complete. 728 issue(s) in 993 rule(s).
+2026-03-03 18:15:48  INFO      logs.firewall — Disabled rule: 'DCS World Steam Edition'
+2026-03-03 18:15:49  INFO      logs.firewall — Starting firewall analysis
+2026-03-03 18:15:50  INFO      logs.firewall — Retrieved 993 firewall rules.
+2026-03-03 18:15:50  INFO      logs.firewall — Analysis complete. 728 issue(s) in 993 rule(s).
+2026-03-03 18:15:53  INFO      logs.scanner — nmap PortScanner initialized successfully
+2026-03-03 18:15:53  INFO      logs.scanner — Starting scan on 127.0.0.1 | profile=quick (Quick Scan) | args: -sV -T4 --open --top-ports 100
+2026-03-03 18:16:04  INFO      logs.scanner — Scan complete. 4 open port(s) found.
+2026-03-03 18:16:04  INFO      logs.firewall — Starting firewall analysis
+2026-03-03 18:16:05  INFO      logs.firewall — Retrieved 993 firewall rules.
+2026-03-03 18:16:05  INFO      logs.firewall — Analysis complete. 728 issue(s) in 993 rule(s).
+2026-03-03 18:16:05  INFO      logs.risk_engine — Risk score: 100%  (raw=5887)
+2026-03-03 18:16:05  DEBUG     logs.risk_engine —   +20 critical port 445
+2026-03-03 18:16:05  DEBUG     logs.risk_engine —   +15 risky port 3306
+2026-03-03 18:16:05  DEBUG     logs.risk_engine —   +10 firewall High: Wi-Fi Direct Spooler Use (In)
+2026-03-03 18:16:05  DEBUG     logs.risk_engine —   +7 firewall Medium: Remote Assistance (TCP-Out)
+2026-03-03 18:16:05  DEBUG     logs.risk_engine —   +10 firewall High: Network Discovery (LLMNR-UDP-I
+2026-03-03 18:16:05  DEBUG     logs.risk_engine —   +7 firewall Medium: Remote Event Log Management (N
+2026-03-03 18:16:05  DEBUG     logs.risk_engine —   +10 firewall High: Network Discovery for Teredo (
+2026-03-03 18:16:05  DEBUG     logs.risk_engine —   +10 firewall High: Wi-Fi Direct Scan Service Use 
+2026-03-03 18:16:05  DEBUG     logs.risk_engine —   +7 firewall Medium: Network Discovery (WSD-In)
+2026-03-03 18:16:05  DEBUG     logs.risk_engine —   +7 firewall Medium: Network Discovery (UPnP-Out)
+2026-03-03 18:16:05  DEBUG     logs.risk_engine —   ... and 720 more
+2026-03-03 18:16:06  DEBUG     logs.anomaly_detector — IsolationForest prediction=1, score=-0.3526
+2026-03-03 18:16:06  INFO      logs.anomaly_detector — Baseline updated.
+2026-03-03 18:16:58  INFO      logs — L.O.G.S. exiting with code 0
+2026-03-03 18:19:32  INFO      logs — ============================================================
+2026-03-03 18:19:32  INFO      logs — L.O.G.S. starting
+2026-03-03 18:19:32  INFO      logs — ============================================================
+2026-03-03 18:19:32  INFO      logs — FirewallDemoWindow displayed — entering event loop
+2026-03-03 18:19:34  INFO      logs.firewall — Starting firewall analysis
+2026-03-03 18:19:35  INFO      logs.firewall — Retrieved 993 firewall rules.
+2026-03-03 18:19:35  INFO      logs.firewall — Analysis complete. 728 issue(s) in 993 rule(s).
+2026-03-03 18:20:18  INFO      logs — L.O.G.S. exiting with code 0
+2026-03-03 18:25:17  INFO      logs — ============================================================
+2026-03-03 18:25:17  INFO      logs — L.O.G.S. starting
+2026-03-03 18:25:17  INFO      logs — ============================================================
+2026-03-03 18:25:17  INFO      logs — FirewallDemoWindow displayed — entering event loop
+2026-03-03 18:25:20  INFO      logs.firewall — Starting firewall analysis
+2026-03-03 18:25:21  INFO      logs.firewall — Retrieved 993 firewall rules.
+2026-03-03 18:25:21  INFO      logs.firewall — Analysis complete. 728 issue(s) in 993 rule(s).
+2026-03-03 18:25:28  INFO      logs — ============================================================
+2026-03-03 18:25:28  INFO      logs — L.O.G.S. starting
+2026-03-03 18:25:28  INFO      logs — ============================================================
+2026-03-03 18:25:29  INFO      logs — FirewallDemoWindow displayed — entering event loop
+2026-03-03 18:25:33  INFO      logs — ============================================================
+2026-03-03 18:25:33  INFO      logs — L.O.G.S. starting
+2026-03-03 18:25:33  INFO      logs — ============================================================
+2026-03-03 18:25:33  INFO      logs — FirewallDemoWindow displayed — entering event loop
+2026-03-03 18:25:34  INFO      logs.firewall — Starting firewall analysis
+2026-03-03 18:25:35  INFO      logs.firewall — Retrieved 993 firewall rules.
+2026-03-03 18:25:35  INFO      logs.firewall — Analysis complete. 728 issue(s) in 993 rule(s).
+2026-03-03 18:28:11  INFO      logs — ============================================================
+2026-03-03 18:28:11  INFO      logs — L.O.G.S. starting
+2026-03-03 18:28:11  INFO      logs — ============================================================
+2026-03-03 18:28:12  INFO      logs — FirewallDemoWindow displayed — entering event loop
+2026-03-03 18:28:13  INFO      logs.firewall — Starting firewall analysis
+2026-03-03 18:28:14  INFO      logs.firewall — Retrieved 993 firewall rules.
+2026-03-03 18:28:14  INFO      logs.firewall — Analysis complete. 728 issue(s) in 993 rule(s).
+2026-03-03 18:28:39  INFO      logs — ============================================================
+2026-03-03 18:28:39  INFO      logs — L.O.G.S. starting
+2026-03-03 18:28:39  INFO      logs — ============================================================
+2026-03-03 18:28:40  INFO      logs — FirewallDemoWindow displayed — entering event loop
+2026-03-03 18:28:41  INFO      logs.firewall — Starting firewall analysis
+2026-03-03 18:28:42  INFO      logs.firewall — Retrieved 993 firewall rules.
+2026-03-03 18:28:42  INFO      logs.firewall — Analysis complete. 728 issue(s) in 993 rule(s).
+2026-03-03 18:28:43  INFO      logs.firewall — Starting firewall analysis
+2026-03-03 18:28:45  INFO      logs.firewall — Retrieved 993 firewall rules.
+2026-03-03 18:28:45  INFO      logs.firewall — Analysis complete. 728 issue(s) in 993 rule(s).
+2026-03-03 18:28:47  INFO      logs.firewall — Starting firewall analysis
+2026-03-03 18:28:48  INFO      logs.firewall — Retrieved 993 firewall rules.
+2026-03-03 18:28:48  INFO      logs.firewall — Analysis complete. 728 issue(s) in 993 rule(s).
+2026-03-03 19:18:12  INFO      logs — ============================================================
+2026-03-03 19:18:12  INFO      logs — L.O.G.S. starting
+2026-03-03 19:18:12  INFO      logs — ============================================================
+2026-03-03 19:18:13  INFO      logs — FirewallDemoWindow displayed — entering event loop
+2026-03-03 19:18:14  INFO      logs.firewall — Starting firewall analysis
+2026-03-03 19:18:15  INFO      logs.firewall — Retrieved 993 firewall rules.
+2026-03-03 19:18:15  INFO      logs.firewall — Analysis complete. 728 issue(s) in 993 rule(s).
+2026-03-03 19:18:23  INFO      logs — ============================================================
+2026-03-03 19:18:23  INFO      logs — L.O.G.S. starting
+2026-03-03 19:18:23  INFO      logs — ============================================================
+2026-03-03 19:18:23  INFO      logs — FirewallDemoWindow displayed — entering event loop
+2026-03-03 19:18:26  INFO      logs.scanner — nmap PortScanner initialized successfully
+2026-03-03 19:18:26  INFO      logs.scanner — Starting scan on 127.0.0.1 | profile=standard (Standard Scan) | args: -sV -T3 --open -p 1-10000
+2026-03-03 19:18:36  INFO      logs — L.O.G.S. exiting with code 0
+2026-03-03 19:18:38  INFO      logs — ============================================================
+2026-03-03 19:18:38  INFO      logs — L.O.G.S. starting
+2026-03-03 19:18:38  INFO      logs — ============================================================
+2026-03-03 19:18:38  INFO      logs — FirewallDemoWindow displayed — entering event loop
+2026-03-03 19:18:40  INFO      logs.firewall — Starting firewall analysis
+2026-03-03 19:18:41  INFO      logs.firewall — Retrieved 993 firewall rules.
+2026-03-03 19:18:41  INFO      logs.firewall — Analysis complete. 728 issue(s) in 993 rule(s).
+2026-03-03 19:18:46  INFO      logs — ============================================================
+2026-03-03 19:18:46  INFO      logs — L.O.G.S. starting
+2026-03-03 19:18:46  INFO      logs — ============================================================
+2026-03-03 19:18:46  INFO      logs — FirewallDemoWindow displayed — entering event loop
+2026-03-03 19:18:50  INFO      logs.scanner — nmap PortScanner initialized successfully
+2026-03-03 19:18:50  INFO      logs.scanner — Starting scan on 127.0.0.1 | profile=quick (Quick Scan) | args: -sV -T4 --open --top-ports 100
+2026-03-03 19:19:01  INFO      logs.scanner — Scan complete. 4 open port(s) found.
+2026-03-03 19:19:01  INFO      logs.firewall — Starting firewall analysis
+2026-03-03 19:19:02  INFO      logs.firewall — Retrieved 993 firewall rules.
+2026-03-03 19:19:02  INFO      logs.firewall — Analysis complete. 728 issue(s) in 993 rule(s).
+2026-03-03 19:19:02  INFO      logs.risk_engine — Risk score: 100%  (raw=5887)
+2026-03-03 19:19:02  DEBUG     logs.risk_engine —   +20 critical port 445
+2026-03-03 19:19:02  DEBUG     logs.risk_engine —   +15 risky port 3306
+2026-03-03 19:19:02  DEBUG     logs.risk_engine —   +10 firewall High: Wi-Fi Direct Spooler Use (In)
+2026-03-03 19:19:02  DEBUG     logs.risk_engine —   +7 firewall Medium: Remote Assistance (TCP-Out)
+2026-03-03 19:19:02  DEBUG     logs.risk_engine —   +10 firewall High: Network Discovery (LLMNR-UDP-I
+2026-03-03 19:19:02  DEBUG     logs.risk_engine —   +7 firewall Medium: Remote Event Log Management (N
+2026-03-03 19:19:02  DEBUG     logs.risk_engine —   +10 firewall High: Network Discovery for Teredo (
+2026-03-03 19:19:02  DEBUG     logs.risk_engine —   +10 firewall High: Wi-Fi Direct Scan Service Use 
+2026-03-03 19:19:02  DEBUG     logs.risk_engine —   +7 firewall Medium: Network Discovery (WSD-In)
+2026-03-03 19:19:02  DEBUG     logs.risk_engine —   +7 firewall Medium: Network Discovery (UPnP-Out)
+2026-03-03 19:19:02  DEBUG     logs.risk_engine —   ... and 720 more
+2026-03-03 19:19:02  WARNING   logs.anomaly_detector — ANOMALY: New open port detected: 135
+2026-03-03 19:19:02  WARNING   logs.anomaly_detector — ANOMALY: New open port detected: 445
+2026-03-03 19:19:02  WARNING   logs.anomaly_detector — ANOMALY: New open port detected: 3306
+2026-03-03 19:19:02  WARNING   logs.anomaly_detector — ANOMALY: New open port detected: 5357
+2026-03-03 19:19:02  INFO      logs.anomaly_detector — Change: Port no longer open (was in baseline): 80
+2026-03-03 19:19:03  DEBUG     logs.anomaly_detector — IsolationForest prediction=1, score=-0.5055
+2026-03-03 19:19:03  INFO      logs.anomaly_detector — Baseline updated.
+2026-03-03 19:21:12  INFO      logs — L.O.G.S. exiting with code 0
+2026-03-11 13:21:23  INFO      logs — ============================================================
+2026-03-11 13:21:23  INFO      logs — L.O.G.S. starting
+2026-03-11 13:21:23  INFO      logs — ============================================================
+2026-03-11 13:21:24  INFO      logs — FirewallDemoWindow displayed — entering event loop
+2026-03-11 13:21:28  INFO      logs.scanner — nmap PortScanner initialized successfully
+2026-03-11 13:21:28  INFO      logs.scanner — Starting scan on 127.0.0.1 | profile=standard (Standard Scan) | args: -sV -T3 --open -p 1-10000
+2026-03-11 13:24:14  INFO      logs.scanner — Scan complete. 7 open port(s) found.
+2026-03-11 13:24:14  INFO      logs.firewall — Starting firewall analysis
+2026-03-11 13:24:16  INFO      logs.firewall — Retrieved 993 firewall rules.
+2026-03-11 13:24:16  INFO      logs.firewall — Analysis complete. 728 issue(s) in 993 rule(s).
+2026-03-11 13:24:16  INFO      logs.risk_engine — Risk score: 100%  (raw=5887)
+2026-03-11 13:24:16  DEBUG     logs.risk_engine —   +20 critical port 445
+2026-03-11 13:24:16  DEBUG     logs.risk_engine —   +15 risky port 3306
+2026-03-11 13:24:16  DEBUG     logs.risk_engine —   +10 firewall High: Wi-Fi Direct Spooler Use (In)
+2026-03-11 13:24:16  DEBUG     logs.risk_engine —   +7 firewall Medium: Remote Assistance (TCP-Out)
+2026-03-11 13:24:16  DEBUG     logs.risk_engine —   +10 firewall High: Network Discovery (LLMNR-UDP-I
+2026-03-11 13:24:16  DEBUG     logs.risk_engine —   +7 firewall Medium: Remote Event Log Management (N
+2026-03-11 13:24:16  DEBUG     logs.risk_engine —   +10 firewall High: Network Discovery for Teredo (
+2026-03-11 13:24:16  DEBUG     logs.risk_engine —   +10 firewall High: Wi-Fi Direct Scan Service Use 
+2026-03-11 13:24:16  DEBUG     logs.risk_engine —   +7 firewall Medium: Network Discovery (WSD-In)
+2026-03-11 13:24:16  DEBUG     logs.risk_engine —   +7 firewall Medium: Network Discovery (UPnP-Out)
+2026-03-11 13:24:16  DEBUG     logs.risk_engine —   ... and 720 more
+2026-03-11 13:24:16  WARNING   logs.anomaly_detector — ANOMALY: New open port detected: 5040
+2026-03-11 13:24:16  WARNING   logs.anomaly_detector — ANOMALY: New open port detected: 5281
+2026-03-11 13:24:16  WARNING   logs.anomaly_detector — ANOMALY: New open port detected: 6742
+2026-03-11 13:24:19  DEBUG     logs.anomaly_detector — IsolationForest prediction=1, score=-0.3925
+2026-03-11 13:24:19  INFO      logs.anomaly_detector — Baseline updated.
+2026-03-11 13:24:47  INFO      logs.scanner — nmap PortScanner initialized successfully
+2026-03-11 13:24:47  INFO      logs.scanner — Starting scan on 127.0.0.1 | profile=full (Full Scan) | args: -sV -T3 --open -p 1-65535
+2026-03-11 13:27:15  INFO      logs.firewall — Starting firewall analysis
+2026-03-11 13:27:17  INFO      logs.firewall — Retrieved 993 firewall rules.
+2026-03-11 13:27:17  INFO      logs.firewall — Analysis complete. 728 issue(s) in 993 rule(s).
+2026-03-11 13:27:35  INFO      logs.scanner — Scan complete. 22 open port(s) found.
+2026-03-11 13:27:35  INFO      logs.firewall — Starting firewall analysis
+2026-03-11 13:27:36  INFO      logs.firewall — Retrieved 993 firewall rules.
+2026-03-11 13:27:36  INFO      logs.firewall — Analysis complete. 728 issue(s) in 993 rule(s).
+2026-03-11 13:27:36  INFO      logs.risk_engine — Risk score: 100%  (raw=5887)
+2026-03-11 13:27:36  DEBUG     logs.risk_engine —   +20 critical port 445
+2026-03-11 13:27:36  DEBUG     logs.risk_engine —   +15 risky port 3306
+2026-03-11 13:27:36  DEBUG     logs.risk_engine —   +10 firewall High: Wi-Fi Direct Spooler Use (In)
+2026-03-11 13:27:36  DEBUG     logs.risk_engine —   +7 firewall Medium: Remote Assistance (TCP-Out)
+2026-03-11 13:27:36  DEBUG     logs.risk_engine —   +10 firewall High: Network Discovery (LLMNR-UDP-I
+2026-03-11 13:27:36  DEBUG     logs.risk_engine —   +7 firewall Medium: Remote Event Log Management (N
+2026-03-11 13:27:36  DEBUG     logs.risk_engine —   +10 firewall High: Network Discovery for Teredo (
+2026-03-11 13:27:36  DEBUG     logs.risk_engine —   +10 firewall High: Wi-Fi Direct Scan Service Use 
+2026-03-11 13:27:36  DEBUG     logs.risk_engine —   +7 firewall Medium: Network Discovery (WSD-In)
+2026-03-11 13:27:36  DEBUG     logs.risk_engine —   +7 firewall Medium: Network Discovery (UPnP-Out)
+2026-03-11 13:27:36  DEBUG     logs.risk_engine —   ... and 720 more
+2026-03-11 13:27:36  WARNING   logs.anomaly_detector — ANOMALY: New open port detected: 16039
+2026-03-11 13:27:36  WARNING   logs.anomaly_detector — ANOMALY: New open port detected: 33060
+2026-03-11 13:27:36  WARNING   logs.anomaly_detector — ANOMALY: New open port detected: 36176
+2026-03-11 13:27:36  WARNING   logs.anomaly_detector — ANOMALY: New open port detected: 49664
+2026-03-11 13:27:36  WARNING   logs.anomaly_detector — ANOMALY: New open port detected: 49665
+2026-03-11 13:27:36  WARNING   logs.anomaly_detector — ANOMALY: New open port detected: 49666
+2026-03-11 13:27:36  WARNING   logs.anomaly_detector — ANOMALY: New open port detected: 49667
+2026-03-11 13:27:36  WARNING   logs.anomaly_detector — ANOMALY: New open port detected: 49668
+2026-03-11 13:27:36  WARNING   logs.anomaly_detector — ANOMALY: New open port detected: 49669
+2026-03-11 13:27:36  WARNING   logs.anomaly_detector — ANOMALY: New open port detected: 49696
+2026-03-11 13:27:36  WARNING   logs.anomaly_detector — ANOMALY: New open port detected: 49733
+2026-03-11 13:27:36  WARNING   logs.anomaly_detector — ANOMALY: New open port detected: 49734
+2026-03-11 13:27:36  WARNING   logs.anomaly_detector — ANOMALY: New open port detected: 49735
+2026-03-11 13:27:36  WARNING   logs.anomaly_detector — ANOMALY: New open port detected: 49736
+2026-03-11 13:27:36  WARNING   logs.anomaly_detector — ANOMALY: New open port detected: 49996
+2026-03-11 13:27:36  DEBUG     logs.anomaly_detector — IsolationForest prediction=1, score=-0.3925
+2026-03-11 13:27:36  INFO      logs.anomaly_detector — Baseline updated.
+2026-03-11 13:33:40  INFO      logs.firewall — Starting firewall analysis
+2026-03-11 13:33:41  INFO      logs.firewall — Retrieved 993 firewall rules.
+2026-03-11 13:33:41  INFO      logs.firewall — Analysis complete. 728 issue(s) in 993 rule(s).
+2026-03-13 13:07:31  INFO      logs — ============================================================
+2026-03-13 13:07:31  INFO      logs — L.O.G.S. starting
+2026-03-13 13:07:31  INFO      logs — ============================================================
+2026-03-13 13:07:32  INFO      logs — FirewallDemoWindow displayed — entering event loop
+2026-03-13 13:07:39  INFO      logs.scanner — nmap PortScanner initialized successfully
+2026-03-13 13:07:39  INFO      logs.scanner — Starting scan on 127.0.0.1 | profile=standard (Standard Scan) | args: -sV -T3 --open -p 1-10000
+2026-03-13 13:09:13  INFO      logs.scanner — Scan complete. 7 open port(s) found.
+2026-03-13 13:09:13  INFO      logs.firewall — Starting firewall analysis
+2026-03-13 13:09:14  INFO      logs.firewall — Retrieved 993 firewall rules.
+2026-03-13 13:09:14  INFO      logs.firewall — Analysis complete. 728 issue(s) in 993 rule(s).
+2026-03-13 13:09:14  INFO      logs.risk_engine — Risk score: 100%  (raw=5887)
+2026-03-13 13:09:14  DEBUG     logs.risk_engine —   +20 critical port 445
+2026-03-13 13:09:14  DEBUG     logs.risk_engine —   +15 risky port 3306
+2026-03-13 13:09:14  DEBUG     logs.risk_engine —   +10 firewall High: Wi-Fi Direct Spooler Use (In)
+2026-03-13 13:09:14  DEBUG     logs.risk_engine —   +7 firewall Medium: Remote Assistance (TCP-Out)
+2026-03-13 13:09:14  DEBUG     logs.risk_engine —   +10 firewall High: Network Discovery (LLMNR-UDP-I
+2026-03-13 13:09:14  DEBUG     logs.risk_engine —   +7 firewall Medium: Remote Event Log Management (N
+2026-03-13 13:09:14  DEBUG     logs.risk_engine —   +10 firewall High: Network Discovery for Teredo (
+2026-03-13 13:09:14  DEBUG     logs.risk_engine —   +10 firewall High: Wi-Fi Direct Scan Service Use 
+2026-03-13 13:09:14  DEBUG     logs.risk_engine —   +7 firewall Medium: Network Discovery (WSD-In)
+2026-03-13 13:09:14  DEBUG     logs.risk_engine —   +7 firewall Medium: Network Discovery (UPnP-Out)
+2026-03-13 13:09:14  DEBUG     logs.risk_engine —   ... and 720 more
+2026-03-13 13:09:14  WARNING   logs.anomaly_detector — ANOMALY: New open port detected: 4454
+2026-03-13 13:09:14  INFO      logs.anomaly_detector — Change: Port no longer open (was in baseline): 5281
+2026-03-13 13:09:14  INFO      logs.anomaly_detector — Change: Port no longer open (was in baseline): 16039
+2026-03-13 13:09:14  INFO      logs.anomaly_detector — Change: Port no longer open (was in baseline): 33060
+2026-03-13 13:09:14  INFO      logs.anomaly_detector — Change: Port no longer open (was in baseline): 36176
+2026-03-13 13:09:14  INFO      logs.anomaly_detector — Change: Port no longer open (was in baseline): 49664
+2026-03-13 13:09:14  INFO      logs.anomaly_detector — Change: Port no longer open (was in baseline): 49665
+2026-03-13 13:09:14  INFO      logs.anomaly_detector — Change: Port no longer open (was in baseline): 49666
+2026-03-13 13:09:14  INFO      logs.anomaly_detector — Change: Port no longer open (was in baseline): 49667
+2026-03-13 13:09:14  INFO      logs.anomaly_detector — Change: Port no longer open (was in baseline): 49668
+2026-03-13 13:09:14  INFO      logs.anomaly_detector — Change: Port no longer open (was in baseline): 49669
+2026-03-13 13:09:14  INFO      logs.anomaly_detector — Change: Port no longer open (was in baseline): 49696
+2026-03-13 13:09:14  INFO      logs.anomaly_detector — Change: Port no longer open (was in baseline): 49733
+2026-03-13 13:09:14  INFO      logs.anomaly_detector — Change: Port no longer open (was in baseline): 49734
+2026-03-13 13:09:14  INFO      logs.anomaly_detector — Change: Port no longer open (was in baseline): 49735
+2026-03-13 13:09:14  INFO      logs.anomaly_detector — Change: Port no longer open (was in baseline): 49736
+2026-03-13 13:09:14  INFO      logs.anomaly_detector — Change: Port no longer open (was in baseline): 49996
+2026-03-13 13:09:17  DEBUG     logs.anomaly_detector — IsolationForest prediction=1, score=-0.3925
+2026-03-13 13:09:17  INFO      logs.anomaly_detector — Baseline updated.
+2026-03-13 13:18:57  INFO      logs.firewall — Starting firewall analysis
+2026-03-13 13:18:58  INFO      logs.firewall — Retrieved 993 firewall rules.
+2026-03-13 13:18:58  INFO      logs.firewall — Analysis complete. 728 issue(s) in 993 rule(s).
+2026-03-13 13:36:53  INFO      logs — L.O.G.S. exiting with code 0
+2026-04-09 20:02:03  INFO      logs — ============================================================
+2026-04-09 20:02:03  INFO      logs — L.O.G.S. starting
+2026-04-09 20:02:03  INFO      logs — ============================================================
+2026-04-09 20:02:03  INFO      logs — FirewallDemoWindow displayed — entering event loop
+2026-04-09 20:02:07  INFO      logs.scanner — nmap PortScanner initialized successfully
+2026-04-09 20:02:07  INFO      logs.scanner — Starting scan on 127.0.0.1 | profile=standard (Standard Scan) | args: -sV -T3 --open -p 1-10000
+2026-04-09 20:02:12  INFO      logs — L.O.G.S. exiting with code 0
+2026-04-09 20:03:37  INFO      logs — ============================================================
+2026-04-09 20:03:37  INFO      logs — L.O.G.S. starting
+2026-04-09 20:03:37  INFO      logs — ============================================================
+2026-04-09 20:03:38  INFO      logs — FirewallDemoWindow displayed — entering event loop
+2026-04-09 20:03:48  INFO      logs — L.O.G.S. exiting with code 0
+2026-04-09 20:05:42  INFO      logs — ============================================================
+2026-04-09 20:05:42  INFO      logs — L.O.G.S. starting
+2026-04-09 20:05:42  INFO      logs — ============================================================
+2026-04-09 20:05:42  INFO      logs — FirewallDemoWindow displayed — entering event loop
+2026-04-09 20:05:46  INFO      logs — L.O.G.S. exiting with code 0
+2026-04-09 20:13:57  INFO      logs — ============================================================
+2026-04-09 20:13:57  INFO      logs — L.O.G.S. starting
+2026-04-09 20:13:57  INFO      logs — ============================================================
+2026-04-09 20:13:58  INFO      logs — FirewallDemoWindow displayed — entering event loop
+2026-04-09 20:14:01  INFO      logs.firewall — Starting firewall analysis
+2026-04-09 20:14:03  INFO      logs.firewall — Retrieved 984 firewall rules.
+2026-04-09 20:14:03  INFO      logs.firewall — Analysis complete. 726 issue(s) in 984 rule(s).
+2026-04-09 20:14:15  INFO      logs — ============================================================
+2026-04-09 20:14:15  INFO      logs — L.O.G.S. starting
+2026-04-09 20:14:15  INFO      logs — ============================================================
+2026-04-09 20:14:15  INFO      logs — FirewallDemoWindow displayed — entering event loop
+2026-04-09 20:14:16  INFO      logs.firewall — Starting firewall analysis
+2026-04-09 20:14:17  INFO      logs.firewall — Retrieved 984 firewall rules.
+2026-04-09 20:14:17  INFO      logs.firewall — Analysis complete. 726 issue(s) in 984 rule(s).
+2026-04-09 20:14:25  INFO      logs — L.O.G.S. exiting with code 0

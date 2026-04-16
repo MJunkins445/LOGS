@@ -1,0 +1,15 @@
+# L.O.G.S. — Python package dependencies
+# Install with: pip install -r requirements.txt
+#
+# NOTE: nmap binary must also be installed separately from https://nmap.org/download.html
+#       and added to your system PATH for the Network Scan tab.
+
+# ── Core GUI ─────────────────────────────────────────────
+PyQt5>=5.15.9
+
+# ── Network scanning (Network Scan tab) ──────────────────
+python-nmap>=0.7.1
+
+# ── Numeric / ML (optional — Isolation Forest anomaly detection) ──
+numpy>=1.24.0
+scikit-learn>=1.3.0
